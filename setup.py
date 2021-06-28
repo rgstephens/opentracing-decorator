@@ -29,7 +29,7 @@ def get_long_description():
 
 setup(
     name="opentracing-decorator",
-    python_requires=">=3.7",
+    python_requires=">=3.7,<3.9",
     version=get_version("opentracing_decorator"),
     url="https://github.com/doughepi/opentracing-decorator",
     project_urls={
